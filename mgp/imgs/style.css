@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+
+/* Encabezado */
+.header {
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+
+.header p {
+    margin: 5px 0;
+    color: #555;
+}
+
+
+/* Secciones */
+.section {
+    margin-bottom: 20px;
+}
+
+
+.section h2 {
+    font-size: 1.5em;
+    color: #333;
+    border-bottom: 2px solid #ff94df;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+
+.job h3 {
+    font-size: 1.2em;
+    color: #ff0095;
+    margin-bottom: 5px;
+}
+
+
+.job p {
+    font-style: italic;
+    color: #555;
+    margin: 0 0 5px 0;
+}
+
+
+.job ul {
+    list-style-type: square;
+    padding-left: 20px;
+    margin: 0;
+}
+
+
+/* Habilidades */
+ul {
+    padding-left: 20px;
+}
+
+
+ul li {
+    margin-bottom: 5px;
+}
+
+
+/* Responsivo */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+
+    .header h1 {
+        font-size: 1.8em;
+    }
+
+
+    .section h2 {
+        font-size: 1.3em;
+    }
+}
